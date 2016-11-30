@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA7D22FD1DEE8B8C00E66DAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D22FC1DEE8B8C00E66DAB /* AppDelegate.swift */; };
+		FA7D22FF1DEE8B8C00E66DAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D22FE1DEE8B8C00E66DAB /* ViewController.swift */; };
+		FA7D23021DEE8B8C00E66DAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7D23001DEE8B8C00E66DAB /* Main.storyboard */; };
+		FA7D23041DEE8B8C00E66DAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7D23031DEE8B8C00E66DAB /* Assets.xcassets */; };
+		FA7D23071DEE8B8C00E66DAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7D23051DEE8B8C00E66DAB /* LaunchScreen.storyboard */; };
+		FA7D23121DEE8B8C00E66DAB /* F_BeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D23111DEE8B8C00E66DAB /* F_BeeTests.swift */; };
+		FA7D231D1DEE8B8C00E66DAB /* F_BeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D231C1DEE8B8C00E66DAB /* F_BeeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA7D230E1DEE8B8C00E66DAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA7D22F11DEE8B8C00E66DAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA7D22F81DEE8B8C00E66DAB;
+			remoteInfo = "F-Bee";
+		};
+		FA7D23191DEE8B8C00E66DAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA7D22F11DEE8B8C00E66DAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA7D22F81DEE8B8C00E66DAB;
+			remoteInfo = "F-Bee";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA7D22F91DEE8B8C00E66DAB /* F-Bee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "F-Bee.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7D22FC1DEE8B8C00E66DAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA7D22FE1DEE8B8C00E66DAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA7D23011DEE8B8C00E66DAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA7D23031DEE8B8C00E66DAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA7D23061DEE8B8C00E66DAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA7D23081DEE8B8C00E66DAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7D230D1DEE8B8C00E66DAB /* F-BeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "F-BeeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7D23111DEE8B8C00E66DAB /* F_BeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F_BeeTests.swift; sourceTree = "<group>"; };
+		FA7D23131DEE8B8C00E66DAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7D23181DEE8B8C00E66DAB /* F-BeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "F-BeeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7D231C1DEE8B8C00E66DAB /* F_BeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F_BeeUITests.swift; sourceTree = "<group>"; };
+		FA7D231E1DEE8B8C00E66DAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA7D22F61DEE8B8C00E66DAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7D230A1DEE8B8C00E66DAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7D23151DEE8B8C00E66DAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA7D22F01DEE8B8C00E66DAB = {
+			isa = PBXGroup;
+			children = (
+				FA7D22FB1DEE8B8C00E66DAB /* F-Bee */,
+				FA7D23101DEE8B8C00E66DAB /* F-BeeTests */,
+				FA7D231B1DEE8B8C00E66DAB /* F-BeeUITests */,
+				FA7D22FA1DEE8B8C00E66DAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA7D22FA1DEE8B8C00E66DAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA7D22F91DEE8B8C00E66DAB /* F-Bee.app */,
+				FA7D230D1DEE8B8C00E66DAB /* F-BeeTests.xctest */,
+				FA7D23181DEE8B8C00E66DAB /* F-BeeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA7D22FB1DEE8B8C00E66DAB /* F-Bee */ = {
+			isa = PBXGroup;
+			children = (
+				FA7D22FC1DEE8B8C00E66DAB /* AppDelegate.swift */,
+				FA7D22FE1DEE8B8C00E66DAB /* ViewController.swift */,
+				FA7D23001DEE8B8C00E66DAB /* Main.storyboard */,
+				FA7D23031DEE8B8C00E66DAB /* Assets.xcassets */,
+				FA7D23051DEE8B8C00E66DAB /* LaunchScreen.storyboard */,
+				FA7D23081DEE8B8C00E66DAB /* Info.plist */,
+			);
+			path = "F-Bee";
+			sourceTree = "<group>";
+		};
+		FA7D23101DEE8B8C00E66DAB /* F-BeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA7D23111DEE8B8C00E66DAB /* F_BeeTests.swift */,
+				FA7D23131DEE8B8C00E66DAB /* Info.plist */,
+			);
+			path = "F-BeeTests";
+			sourceTree = "<group>";
+		};
+		FA7D231B1DEE8B8C00E66DAB /* F-BeeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA7D231C1DEE8B8C00E66DAB /* F_BeeUITests.swift */,
+				FA7D231E1DEE8B8C00E66DAB /* Info.plist */,
+			);
+			path = "F-BeeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA7D22F81DEE8B8C00E66DAB /* F-Bee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7D23211DEE8B8C00E66DAB /* Build configuration list for PBXNativeTarget "F-Bee" */;
+			buildPhases = (
+				FA7D22F51DEE8B8C00E66DAB /* Sources */,
+				FA7D22F61DEE8B8C00E66DAB /* Frameworks */,
+				FA7D22F71DEE8B8C00E66DAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "F-Bee";
+			productName = "F-Bee";
+			productReference = FA7D22F91DEE8B8C00E66DAB /* F-Bee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA7D230C1DEE8B8C00E66DAB /* F-BeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7D23241DEE8B8C00E66DAB /* Build configuration list for PBXNativeTarget "F-BeeTests" */;
+			buildPhases = (
+				FA7D23091DEE8B8C00E66DAB /* Sources */,
+				FA7D230A1DEE8B8C00E66DAB /* Frameworks */,
+				FA7D230B1DEE8B8C00E66DAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA7D230F1DEE8B8C00E66DAB /* PBXTargetDependency */,
+			);
+			name = "F-BeeTests";
+			productName = "F-BeeTests";
+			productReference = FA7D230D1DEE8B8C00E66DAB /* F-BeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA7D23171DEE8B8C00E66DAB /* F-BeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7D23271DEE8B8C00E66DAB /* Build configuration list for PBXNativeTarget "F-BeeUITests" */;
+			buildPhases = (
+				FA7D23141DEE8B8C00E66DAB /* Sources */,
+				FA7D23151DEE8B8C00E66DAB /* Frameworks */,
+				FA7D23161DEE8B8C00E66DAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA7D231A1DEE8B8C00E66DAB /* PBXTargetDependency */,
+			);
+			name = "F-BeeUITests";
+			productName = "F-BeeUITests";
+			productReference = FA7D23181DEE8B8C00E66DAB /* F-BeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA7D22F11DEE8B8C00E66DAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = VuDev;
+				TargetAttributes = {
+					FA7D22F81DEE8B8C00E66DAB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					FA7D230C1DEE8B8C00E66DAB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA7D22F81DEE8B8C00E66DAB;
+					};
+					FA7D23171DEE8B8C00E66DAB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA7D22F81DEE8B8C00E66DAB;
+					};
+				};
+			};
+			buildConfigurationList = FA7D22F41DEE8B8C00E66DAB /* Build configuration list for PBXProject "F-Bee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA7D22F01DEE8B8C00E66DAB;
+			productRefGroup = FA7D22FA1DEE8B8C00E66DAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA7D22F81DEE8B8C00E66DAB /* F-Bee */,
+				FA7D230C1DEE8B8C00E66DAB /* F-BeeTests */,
+				FA7D23171DEE8B8C00E66DAB /* F-BeeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA7D22F71DEE8B8C00E66DAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7D23071DEE8B8C00E66DAB /* LaunchScreen.storyboard in Resources */,
+				FA7D23041DEE8B8C00E66DAB /* Assets.xcassets in Resources */,
+				FA7D23021DEE8B8C00E66DAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7D230B1DEE8B8C00E66DAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7D23161DEE8B8C00E66DAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA7D22F51DEE8B8C00E66DAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7D22FF1DEE8B8C00E66DAB /* ViewController.swift in Sources */,
+				FA7D22FD1DEE8B8C00E66DAB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7D23091DEE8B8C00E66DAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7D23121DEE8B8C00E66DAB /* F_BeeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7D23141DEE8B8C00E66DAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7D231D1DEE8B8C00E66DAB /* F_BeeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA7D230F1DEE8B8C00E66DAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA7D22F81DEE8B8C00E66DAB /* F-Bee */;
+			targetProxy = FA7D230E1DEE8B8C00E66DAB /* PBXContainerItemProxy */;
+		};
+		FA7D231A1DEE8B8C00E66DAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA7D22F81DEE8B8C00E66DAB /* F-Bee */;
+			targetProxy = FA7D23191DEE8B8C00E66DAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA7D23001DEE8B8C00E66DAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7D23011DEE8B8C00E66DAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA7D23051DEE8B8C00E66DAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7D23061DEE8B8C00E66DAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA7D231F1DEE8B8C00E66DAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA7D23201DEE8B8C00E66DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA7D23221DEE8B8C00E66DAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "F-Bee/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vudq96.gmail.F-Bee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FA7D23231DEE8B8C00E66DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "F-Bee/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vudq96.gmail.F-Bee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FA7D23251DEE8B8C00E66DAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "F-BeeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vudq96.gmail.F-BeeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F-Bee.app/F-Bee";
+			};
+			name = Debug;
+		};
+		FA7D23261DEE8B8C00E66DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "F-BeeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vudq96.gmail.F-BeeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F-Bee.app/F-Bee";
+			};
+			name = Release;
+		};
+		FA7D23281DEE8B8C00E66DAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "F-BeeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vudq96.gmail.F-BeeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "F-Bee";
+			};
+			name = Debug;
+		};
+		FA7D23291DEE8B8C00E66DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "F-BeeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vudq96.gmail.F-BeeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "F-Bee";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA7D22F41DEE8B8C00E66DAB /* Build configuration list for PBXProject "F-Bee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7D231F1DEE8B8C00E66DAB /* Debug */,
+				FA7D23201DEE8B8C00E66DAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7D23211DEE8B8C00E66DAB /* Build configuration list for PBXNativeTarget "F-Bee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7D23221DEE8B8C00E66DAB /* Debug */,
+				FA7D23231DEE8B8C00E66DAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA7D23241DEE8B8C00E66DAB /* Build configuration list for PBXNativeTarget "F-BeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7D23251DEE8B8C00E66DAB /* Debug */,
+				FA7D23261DEE8B8C00E66DAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA7D23271DEE8B8C00E66DAB /* Build configuration list for PBXNativeTarget "F-BeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7D23281DEE8B8C00E66DAB /* Debug */,
+				FA7D23291DEE8B8C00E66DAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA7D22F11DEE8B8C00E66DAB /* Project object */;
+}
